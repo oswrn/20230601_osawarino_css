@@ -6,6 +6,7 @@ header {
     color: darkblue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__h {
@@ -23,10 +24,11 @@ header {
 
 .nav__items {
     font-weight: bold;
+    display: flex;
 }
 
 .nav__items-item{
-    margin: 10px;
+    margin: 20px;
 }
 
 .main__img {
@@ -41,16 +43,16 @@ header {
     font-size: 70px;
     display: inline;
     position: relative;
-    top: 570px;
+    top: 550px;
     
 }
 
 .main__box {
     width: 85%;
-    height: 200px;
+    height: 250px;
     background-color: darkblue;
     margin-bottom: 30px;
     position: absolute;
-    top: 780px;
+    top: 720px;
     z-index: 0;
 }
