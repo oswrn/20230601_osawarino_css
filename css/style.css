@@ -12,8 +12,6 @@ header {
 .header__h {
     font-size: 40px;
     margin: 30px;
-    
-    
 }
 
 .nav {
@@ -31,34 +29,31 @@ header {
     margin: 20px;
 }
 
-
 .main__img {
-    display: inline;
+    max-width: 100%;
 }
+
 
 img {
     position: relative;
-    top: 50px;
-    z-index: 10;
     float: right;
-    width: 900px;
-    height: 700px;
+    width: 60%;
+    height: 500px;
+    z-index: 10;
 }
 
 .main__text {
-    font-size: 70px;
+    font-size: 60px;
     display: inline;
-    position: relative;
-    top: 550px;
-    
+    position: absolute;
+        top: 480px;
 }
 
 .main__box {
-    width: 85%;
-    height: 250px;
+    width: 60%;
+    height: 150px;
     background-color: darkblue;
-    margin-bottom: 50px;
-    position: absolute;
-    top: 720px;
     z-index: 0;
+    position: absolute;
+        top: 550px;
 }
